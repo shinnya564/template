@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+.flex {
+    background-color: #00c7ce;
+    height: 12vh;
+    padding: 10px;
+}
+.flex > div {
+    background-color: #fff;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.flex-portrait {
+    background-color: #00FF00;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-portrait > div {
+    background-color: #fff;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.flex-center {
+    background-color: #FFFF00;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.flex-center > div {
+    background-color: #fff;
+    margin: 5px;
+    font-size: 30px;
+}
